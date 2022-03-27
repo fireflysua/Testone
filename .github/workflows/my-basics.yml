@@ -32,6 +32,12 @@ jobs:
           echo "Hello eth"
           echo "Application name: ${{ env.APPL }}"
           
+      - name: Git clone my repo
+        run : actions/checkout@v1
+        
+      - name: Run step 5 commands 
+        run : ls -la
+          
   my_deploy:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -47,4 +53,10 @@ jobs:
         run : |
           echo "Hello etc"
           echo "Hello btc"
-          echo "Deploy name number: ${{ env.DPNA }}"   
+          echo "Deploy name number: ${{ env.DPNA }}"  
+          
+      - name: Run step 6 commands 
+        run : aws --version
+        
+      - name: Run step 7 commands 
+        run : zip
