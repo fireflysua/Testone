@@ -1,3 +1,3 @@
 # Testone
 
-https://github.com/fireflysua/Testone/actions/workflows/<WORKFLOW_FILE>/badge.svg
+(![example workflow](https://github.com/fireflysua/Testone/actions/workflows/my_testing/badge.svg)
