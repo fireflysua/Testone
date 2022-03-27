@@ -5,3 +5,5 @@ STAUS:<br>
 ![example workflow](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 
+![example workflow](https://github.com/fireflysua/Testone/actions/workflows/my-basics.yml/badge.svg)
+
