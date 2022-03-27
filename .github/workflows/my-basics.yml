@@ -33,7 +33,7 @@ jobs:
           echo "Application name: ${{ env.APPL }}"
           
       - name: Git clone my repo
-        run : actions/checkout@v1
+        uses : actions/checkout@v1
         
       - name: Run step 5 commands 
         run : ls -la
