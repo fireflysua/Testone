@@ -3,8 +3,8 @@ pipeline {
     agent ony
   
     stages {
-      
-      stage("build") {
+      // bulo build
+      stage("test") {
           
           steps {
             echo 'building the application ...'
@@ -18,8 +18,8 @@ pipeline {
             echo 'testing the application ...'
         }
       }
-      
-      stage("deploy") {
+      //  bulo deploy
+      stage("test") {
           
           steps {
             echo 'deploying the application ...'
